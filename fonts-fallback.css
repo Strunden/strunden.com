@@ -1,0 +1,20 @@
+/* Substitute for Adobe Typekit kit font 'vcsm' (Portfolio geometric theme).
+ * Self-hosted Inter (Latin) approximates the original geometric sans.
+ * License: SIL OFL (Inter). Not Adobe Typekit; visual match is approximate.
+ */
+@font-face {
+  font-family: 'vcsm';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/vcsm-regular.woff2') format('woff2'),
+       local('Helvetica Neue'), local('Helvetica'), local('Arial');
+}
+@font-face {
+  font-family: 'vcsm';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/vcsm-bold.woff2') format('woff2'),
+       local('Helvetica Neue Bold'), local('Helvetica Bold'), local('Arial Bold');
+}
